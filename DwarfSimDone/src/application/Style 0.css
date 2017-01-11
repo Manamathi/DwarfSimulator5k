@@ -1,0 +1,35 @@
+.button{
+	-FX-background-color: linear-gradient(Grey,White);
+	-FX-cursor: hand;
+	-FX-effect: dropshadow( one-pass-box , black , 10 , 0.0 ,  2, -1 );
+}
+.button:hover{
+	-FX-background-color: Grey;
+	-FX-scale-x : 1.05;
+	-FX-scale-y : 1.05;
+}
+.root{
+	-FX-background-color: Grey;
+}
+.label{
+	-FX-text-fill : Grey;
+}
+
+.label#wk{
+  -FX-font-weight : bold;
+}
+.text{
+	-FX-text-fill : Grey;
+}
+
+.text#welcome{
+  -FX-font-weight : bold;
+}
+
+.txt{
+	-FX-text-fill : Grey;
+}
+
+.welcome{
+  -FX-font-weight : bold;
+}

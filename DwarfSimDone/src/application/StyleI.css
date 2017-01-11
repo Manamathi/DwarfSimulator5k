@@ -1,0 +1,25 @@
+.button{
+	-FX-background-color: SlateGray;
+	-FX-text-fill : Lime;
+	-FX-cursor: crosshair;
+	-FX-background-radius: 0
+}
+.button:hover{
+	-FX-rotate : 180;
+
+}
+.button:pressed{
+	-FX-background-color: Lime;
+	-FX-text-fill : SlateGrey;
+}
+.root{
+	-FX-background-color: Black ;
+	
+}
+.label{
+	-FX-text-fill : Lime;
+}
+
+.label#wk{
+  -FX-font-weight : bold;
+}

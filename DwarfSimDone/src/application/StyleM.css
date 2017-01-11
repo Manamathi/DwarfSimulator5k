@@ -1,0 +1,24 @@
+.button{
+	-FX-background-color: RoyalBlue;
+	-FX-text-fill : White;
+	-FX-cursor: hand;
+	-FX-effect: dropshadow( one-pass-box , black , 10 , 0.0 ,  2, -1 );
+}
+.button:hover{
+	-FX-opacity : 0.5;
+	-FX-rotate : 5;
+}
+.button:pressed{
+	-FX-background-color: DarkBlue;
+}
+.root{
+	-FX-background-color: linear-gradient(MidnightBlue,SteelBlue);
+}
+.label{
+	-FX-text-fill : White;
+}
+
+.label#wk{
+  -FX-font-weight : bold;
+ 
+}
