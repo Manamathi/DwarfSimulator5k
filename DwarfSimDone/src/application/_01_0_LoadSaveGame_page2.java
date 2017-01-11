@@ -121,7 +121,7 @@ gridPane.add(	back, 					      4, 				13, 			   2, 						1					);
 	GridPane.setHalignment(amor, HPos.CENTER);
 
 //______________________ Button-Activation: _______________________________
-	/*** java 8 NEUE ActionEvent-Funktionen YEAH!!!!!!    ****/
+	/*** java 8  ActionEvent-Funktionen    ****/
 	back.setOnAction(e -> {
 		_00_Launcher_page1 loadMainPage1 = new _00_Launcher_page1();
 		loadMainPage1.start(primaryStage);
@@ -129,7 +129,7 @@ gridPane.add(	back, 					      4, 				13, 			   2, 						1					);
 		load.setOnAction(e -> {
 
 			/********************
-			 *  Button hier noch mit Funktionen befüllen, um Spieldaten aus den anderen Klassen zu importieren
+			 *  Button hier noch mit Funktionen befuellen, um Spieldaten aus den anderen Klassen zu importieren
 			 *******************/
 		});
 /***  Stage Obejekt erstellen und anzeigen:   ***/

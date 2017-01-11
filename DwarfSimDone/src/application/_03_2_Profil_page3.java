@@ -44,13 +44,13 @@ public class _03_2_Profil_page3 extends Application
 		txtGold = new TextField("Anzahl"); txtGold.setMaxWidth(120); txtGold.editableProperty().set(false);
 		kills= new Label("Kills:");
 		txtKills = new TextField("Anzahl"); txtKills.setMaxWidth(120); txtKills.editableProperty().set(false);
-		strenght = new Label("Stärke:");
+		strenght = new Label("Staerke:");
 		txtStrenght = new TextField("Wert"); txtStrenght.setMaxWidth(120); txtStrenght.editableProperty().set(false);
-		dexterity= new Label("Agilität:");
+		dexterity= new Label("Agilitae�t:");
 		txtDexterity = new TextField("Wert"); txtDexterity.setMaxWidth(120); txtDexterity.editableProperty().set(false);
 		defence= new Label("Verteidigung:");
 		txtDefence = new TextField("Wert"); txtDefence.setMaxWidth(120); txtDefence.editableProperty().set(false);
-		amor = new Label("Rüstung:");
+		amor = new Label("Ruestung:");
 		txtAmor = new TextField("Wert"); txtAmor.setMaxWidth(120); txtAmor.editableProperty().set(false);
 		stamina = new Label("Ausdauer:");
 		txtStamina = new TextField("Zahlen/ Zahlen"); txtStamina.setMaxWidth(150); txtStamina.editableProperty().set(false);

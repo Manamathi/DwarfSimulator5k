@@ -45,7 +45,7 @@ public class _03_3_Inventar_page3 extends Application
 /************************************************************************************************************************
  * Die einzelnen Elemente passgenau auf das GridPane legen:
  ***********************************************************************************************************************/
-/*** Gitter anzeigen um Elemente auszurichten (auskommentieren nachdem Elemente ausgerichtet wurden!!): gridPane.setGridLinesVisible(true);   **/
+/*** Gitter anzeigen um Elemente auszurichten (auskommentieren nachdem Elemente ausgerichtet wurden): gridPane.setGridLinesVisible(true);   **/
 /*** >>>>>>>>>>>>> **/
 //				gridPane.setGridLinesVisible(true);
 /*** <<<<<<<<<<<< **/

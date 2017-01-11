@@ -29,7 +29,7 @@ public class _03_4_Tab_SpielOptionen_page3 extends Application
 	{
 		primaryStage.setTitle("Spielansicht");
 		gridPane = new GridPane(); // komplexes Gitter / Raster mit exakter KomponentenAnordnung
-		// ORIGINAL-Größe:
+		// ORIGINAL-Groesse:
 		scene = new Scene(gridPane, 900, 700);
 //________________ Komponenten-Initialisierung
 		start = new Button("Neues Spiel");
@@ -66,7 +66,7 @@ public class _03_4_Tab_SpielOptionen_page3 extends Application
 /************************************************************************************************************************
  * Die einzelnen Elemente passgenau auf das GridPane legen:
  ***********************************************************************************************************************/
-/*** Gitter anzeigen um Elemente auszurichten (auskommentieren nachdem Elemente ausgerichtet wurden!!): gridPane.setGridLinesVisible(true);   **/
+/*** Gitter anzeigen um Elemente auszurichten (auskommentieren nachdem Elemente ausgerichtet wurden): gridPane.setGridLinesVisible(true);   **/
 /*** >>>>>>>>>>>>> **/
 //		gridPane.setGridLinesVisible(true);
 /*** <<<<<<<<<<<< **/
@@ -82,7 +82,7 @@ gridPane.add(	style3, 				  5, 				5, 			   2, 						1					);
 
 GridPane.setHalignment(style2, HPos.LEFT);
 //______________________ Button-Activation: _______________________________
-	/*** java 8 NEUE ActionEvent-Funktionen YEAH!!!!!!    ****/
+	/*** java 8 ActionEvent-Funktionen    ****/
 		start.setOnAction(e -> {
 			_02_WelcomeNewWorld_page2 newGame_page2 = new _02_WelcomeNewWorld_page2();
 			newGame_page2.start(primaryStage);

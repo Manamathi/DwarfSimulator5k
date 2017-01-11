@@ -120,7 +120,7 @@ gridPane.add(	style3, 				  5, 				8, 				   1, 						1					);
 	GridPane.setHalignment(style3, HPos.RIGHT);
 	GridPane.setValignment(changeDesign, VPos.BOTTOM);
 //______________________ Button-Activation: _______________________________
-	/*** java 8 NEUE ActionEvent-Funktionen    ****/
+	/*** java 8 ActionEvent-Funktionen    ****/
 
 		start.setOnAction(e -> {
 			_02_WelcomeNewWorld_page2 newGame_page2 = new _02_WelcomeNewWorld_page2();

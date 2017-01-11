@@ -22,11 +22,6 @@ public class _01_1_TableViewPlayers extends Application
 
 	public VBox vbox;
 	public TableView<Player> table = new TableView<Player>();
-//	private final ObservableList<Player> data = FXCollections
-//			.observableArrayList(new Player("Jacob", "Smith", "jacob.smith@example.com"), new Player("Isabella",
-//					"Johnson", "isabella.johnson@example.com"), new Player("Ethan", "Williams",
-//					"ethan.williams@example.com"), new Player("Emma", "Jones", "emma.jones@example.com"), new Player(
-//					"Michael", "Brown", "michael.brown@example.com"));
 
 
 	@Override

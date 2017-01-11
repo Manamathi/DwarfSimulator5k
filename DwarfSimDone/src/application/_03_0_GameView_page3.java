@@ -24,9 +24,9 @@ public class _03_0_GameView_page3 extends Application
 		GameViewStage.setTitle("Spielwelt");
 		tabPane = new TabPane();
 		_03_1_SpielFeld gameArea = new _03_1_SpielFeld();
-// ALLE Tabs NICHT schliessen koennen , falls fehlt, können Tabs mit X geschlossen, ABER NICHT mehr geöffnet werden!!
+// ALLE Tabs NICHT schliessen koennen 
 		tabPane.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
-// hierdurch koennen die Tabs individuell selektiert werden (moechte man z.B., dass statt dem Tab 1 ds Tb 3 beim laden diese DREIFACH-TabMenues angezeigt wird, so kann man dies nun explizit auswählen durch: )
+// hierdurch koennen die Tabs individuell selektiert werden (moechte man z.B., dass statt dem Tab 1 ds Tb 3 beim laden diese 3fach-TabMenues angezeigt wird, so kann man dies nun explizit auswaehlen durch: )
 		SingleSelectionModel<Tab> selectionModel = tabPane.getSelectionModel();
 //		gridPane = new GridPane(); // komplexes Gitter / Raster mit exakter KomponentenAnordnung
 		scene = new Scene(tabPane, 900, 700);
@@ -94,10 +94,7 @@ public class _03_0_GameView_page3 extends Application
                 }
             }
         });
-		/**********************************************************************
-		 * ACHTUNG: falls man das Design von der SpielOptionen-Seite aus geaendert hat,
-		 * wird sofort wieder zu dieser zurueckgesprungen :-)
-		 ************************************************************************/
+
 		if(_03_4_Tab_SpielOptionen_page3.spielOptionSelection)
 		{
 			_03_4_Tab_SpielOptionen_page3.spielOptionSelection = false;

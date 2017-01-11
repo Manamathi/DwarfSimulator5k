@@ -20,7 +20,7 @@ import javafx.scene.image.Image;
 public class _03_1_SpielFeld extends Canvas
 {
 
-	public int[] playCo = 	 {5,4}; // Player  Coordinates,  Y,X
+	public int[] playCo = 	 {3,4}; // Player  Coordinates,  Y,X
 	int[] seekerCo = {11,16}; // Monster Coordinates,  Y,X
 	int[] goblinCo = {0,0};//{5,11}; // Monster Coordinates,  Y,X
 	int[] orcCo =    {14,0}; // Monster Coordinates,  Y,X
